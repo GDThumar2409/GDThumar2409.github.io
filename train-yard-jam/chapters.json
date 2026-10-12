@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "chapters": [
+    {
+      "id": 1,
+      "name": "First Yard",
+      "levels": 20,
+      "formula": "classic",
+      "new": []
+    },
+    {
+      "id": 2,
+      "name": "Express Line",
+      "levels": 20,
+      "size": [
+        8,
+        7
+      ],
+      "trains": [
+        15,
+        20
+      ],
+      "colors": 6,
+      "long": 0.3,
+      "xl": 0.25,
+      "new": [
+        "xl"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rocky Sidings",
+      "levels": 20,
+      "size": [
+        8,
+        8
+      ],
+      "trains": [
+        17,
+        22
+      ],
+      "colors": 6,
+      "long": 0.35,
+      "xl": 0.15,
+      "rocks": [
+        3,
+        6
+      ],
+      "new": [
+        "rocks"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Lock and Key",
+      "levels": 20,
+      "size": [
+        8,
+        8
+      ],
+      "trains": [
+        17,
+        22
+      ],
+      "colors": 6,
+      "long": 0.35,
+      "xl": 0.15,
+      "rocks": [
+        2,
+        4
+      ],
+      "locked": [
+        1,
+        3
+      ],
+      "new": [
+        "locked"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Night Shift",
+      "levels": 20,
+      "size": [
+        9,
+        8
+      ],
+      "trains": [
+        19,
+        24
+      ],
+      "colors": 6,
+      "long": 0.4,
+      "xl": 0.15,
+      "rocks": [
+        2,
+        5
+      ],
+      "locked": [
+        1,
+        2
+      ],
+      "hidden": 0.3,
+      "new": [
+        "hidden"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Grand Central",
+      "levels": 25,
+      "size": [
+        9,
+        8
+      ],
+      "trains": [
+        21,
+        26
+      ],
+      "colors": 6,
+      "long": 0.4,
+      "xl": 0.2,
+      "rocks": [
+        3,
+        6
+      ],
+      "locked": [
+        2,
+        3
+      ],
+      "hidden": 0.35,
+      "new": [],
+      "intro": "Every challenge at once. Show them who runs this yard!"
+    }
+  ],
+  "endless": {
+    "name": "Freight Run",
+    "levels": 20,
+    "size": [
+      9,
+      8
+    ],
+    "trains": [
+      20,
+      26
+    ],
+    "colors": 6,
+    "long": 0.4,
+    "xl": 0.2,
+    "rocks": [
+      2,
+      5
+    ],
+    "locked": [
+      1,
+      3
+    ],
+    "hidden": 0.3,
+    "mix": [
+      [
+        "rocks"
+      ],
+      [
+        "locked"
+      ],
+      [
+        "hidden"
+      ],
+      [
+        "rocks",
+        "locked"
+      ],
+      [
+        "rocks",
+        "hidden"
+      ],
+      [
+        "locked",
+        "hidden"
+      ],
+      [
+        "rocks",
+        "locked",
+        "hidden"
+      ]
+    ]
+  },
+  "event": {
+    "coinMultiplier": 1,
+    "message": "",
+    "until": ""
+  }
+}
